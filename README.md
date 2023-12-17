@@ -10,19 +10,19 @@ This project contains a Cypress test suite for testing the `https://api.publicap
 
 1. **Clone this repository:**
 
-   ```json
+   ```bash
    git clone https://github.com/ManuC7/publicapis-api-test.git
    ```
 
 2. **Navigate to the project directory:**
 
-   ```json
+   ```bash
    cd publicapis-api-test
    ```
 
 3. **Install dependencies:**
 
-   ```json
+   ```bash
    npm install
    ```
 
@@ -30,7 +30,7 @@ This project contains a Cypress test suite for testing the `https://api.publicap
 
 To run the tests in headless mode and generate a Mochawesome report, use the following command:
 
-```json
+```bash
 npm run test-headless
 ```
 
@@ -39,7 +39,7 @@ The test reports can be found in the reports folder.
 
 To run the tests with the Cypress Test Runner and view the reports interactively, use:
 
-```json
+```bash
 npm run test
 ```
 
